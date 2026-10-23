@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Pacifico Dos Santos | Portfólio</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header class="cabecalho" id="cabecalho">
+        <div class="container navegacao-container">
+            <a href="#inicio" class="logo">Rafael<span>.dev</span></a>
+            
+            <nav class="menu" id="menuNavegacao">
+                <ul class="lista-menu">
+                    <li><a href="#sobre" class="link-menu">Sobre</a></li>
+                    <li><a href="#educacao" class="link-menu">Educação</a></li>
+                    <li><a href="#projetos" class="link-menu">Projetos</a></li>
+                    <li><a href="#contato" class="link-menu">Contato</a></li>
+                </ul>
+            </nav>
+
+        <div class="acoes-header">
+                <!-- Botão Alternar Tema (Dark/Light) -->
+                <button id="botao-alternar" class="botao-icone" aria-label="Alternar Tema">
+                    <i class="bi bi-sun-fill" id="icone-sol"></i>
+                    <i class="bi bi-moon-fill" id="icone-lua"></i>
+                    
+                </button>
+
+                <!-- Botão Menu Hambúrguer -->
+                <button id="botaoMenu" class="botao-icone menu-hamburguer" aria-label="Abrir Menu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero (Apresentação Principal) -->
+        <section class="secao-hero" id="inicio">
+            <div class="container hero-container">
+                <div class="hero-conteudo">
+                    <span class="badge-ola">Olá, mundo! 👋 Meu nome é</span>
+                    <h1 class="titulo-principal">Rafael Pacifico Dos Santos</h1>
+                    <p class="subtitulo-hero">Eu sou um Programador <span class="maquina-escrever" id="elementoDigitacao"></span></p>
+                    <p class="descricao-hero">
+                        Estudante apaixonado por criar interfaces interativas e modernas. Busco minha primeira oportunidade na área de tecnologia, aplicando conhecimentos sólidos de desenvolvimento Front-end.
+                    </p>
+                    <div class="hero-botoes">
+                        <a href="RAFAEL PACÍFICO DOS SANTOS.docx" download class="botao botao-primario" id="botaoCv">
+                            <i class="bi bi-file-earmark-arrow-down-fill"></i> Baixar meu CV
+                        </a>
+                        <a href="#projetos" class="botao botao-secundario">
+                            Ver Projetos <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-imagem">
+                    <div class="card-avatar">
+                        <i class="bi bi-code-slash icone-avatar"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim e Habilidades -->
+        <section class="secao sobre" id="sobre">
+            <div class="container">
+                <div class="cabecalho-secao">
+                    <h2 class="titulo-secao">Sobre Mim</h2>
+                    <p class="descricao-secao">Conheça um pouco da minha trajetória e habilidades técnicas</p>
+                </div>
+
+                <div class="sobre-grid">
+                    <div class="sobre-texto card-glass">
+                        <h3>Minha Jornada</h3>
+                        <p>
+                            Sou estudante do 1º ano do Ensino Médio Técnico em Informática para Internet pela SESC Escola, em parceria com o SENAC. Com forte foco em programação, iniciei minha trilha de aprendizado me especializando em desenvolvimento Front-end. Nos próximos anos, minha formação se expandirá para o Back-end (2º ano) e desenvolvimento Mobile (3º ano), construindo uma base sólida para me tornar um Desenvolvedor Full Stack.
+                        </p>
+                        <p>
+                            Estou sempre buscando novos desafios, estudando boas práticas de programação e criando pequenos projetos para aprimorar minhas habilidades lógicas e visuais.
+                        </p>
+                    </div>
+
+                    <div class="habilidades-container card-glass">
+                        <h3>Hard Skills & Tecnologias</h3>
+                        <p class="subtitulo-habilidades">Ferramentas e tecnologias que utilizo no dia a dia:</p>
+                        <div class="grid-badges">
+                            <span class="badge-skill"><i class="bi bi-filetype-html"></i> HTML5</span>
+                            <span class="badge-skill"><i class="bi bi-filetype-css"></i> CSS3</span>
+                            <span class="badge-skill"><i class="bi bi-filetype-js"></i> JavaScript</span>
+                            <span class="badge-skill"><i class="bi bi-cpu"></i> Lógica de Programação</span>
+                            <span class="badge-skill"><i class="bi bi-diagram-3"></i> Algoritmos</span>
+                            <span class="badge-skill"><i class="bi bi-git"></i> Git</span>
+                            <span class="badge-skill"><i class="bi bi-github"></i> GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Educação & Roadmap -->
+        <section class="secao educacao" id="educacao">
+            <div class="container">
+                <div class="cabecalho-secao">
+                    <h2 class="titulo-secao">Formação & Roadmap</h2>
+                    <p class="descricao-secao">Minha trilha de aprendizado acadêmico e técnico</p>
+                </div>
+
+                <div class="card-glass card-roadmap">
+                    <div class="roadmap-header">
+                        <div class="instituicao-info">
+                            <span class="tag-excelencia"><i class="bi bi-patch-check-fill"></i> Instituição de Excelência</span>
+                            <h3>Ensino Médio Integrado ao Técnico em Informática para Internet</h3>
+                            <p>SESC ESCOLA & SENAC • Conclusão prevista para 2026</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-timeline">
+                        <div class="roadmap-item ativo">
+                            <div class="roadmap-icone"><i class="bi bi-code-slash"></i></div>
+                            <div class="roadmap-conteudo">
+                                <span class="roadmap-badge">1º Ano • Atual</span>
+                                <h4>Desenvolvimento Front-end</h4>
+                                <p>Foco atual em HTML5, CSS3, JavaScript Vanilla, Lógica de Programação e criação de interfaces responsivas.</p>
+                            </div>
+                        </div>
+
+                        <div class="roadmap-item">
+                            <div class="roadmap-icone"><i class="bi bi-server"></i></div>
+                            <div class="roadmap-conteudo">
+                                <span class="roadmap-badge">2º Ano • Próximo Passo</span>
+                                <h4>Desenvolvimento Back-end</h4>
+                                <p>Expansão da formação para servidores, bancos de dados, APIs e lógica avançada de back-end.</p>
+                            </div>
+                        </div>
+
+                        <div class="roadmap-item">
+                            <div class="roadmap-icone"><i class="bi bi-phone"></i></div>
+                            <div class="roadmap-conteudo">
+                                <span class="roadmap-badge">3º Ano • Futuro</span>
+                                <h4>Desenvolvimento Mobile</h4>
+                                <p>Consolidação da carreira Full Stack com foco em aplicações móveis nativas e multiplataforma.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio & Estudos -->
+        <section class="secao projetos" id="projetos">
+            <div class="container">
+                <div class="cabecalho-secao">
+                    <h2 class="titulo-secao">Portfólio & Estudos</h2>
+                    <p class="descricao-secao">Meus principais projetos de destaque e repositórios de anotações</p>
+                </div>
+
+                <!-- Projetos de Destaque -->
+                <h3 class="subtitulo-secao">Projetos de Destaque</h3>
+                <div class="grid-projetos">
+                    <div class="card-projeto">
+                        <div class="projeto-imagem">
+                            <i class="bi  placeholder-icone"></i>
+                            <img src="robo.jpg" alt="" width="270">
+                        </div>
+                        <div class="projeto-info">
+                            <h4>Robomaker</h4>
+                            <p>Ajuda as pessoas que desejam comprar itens para a robotica.</p>
+                            <div class="projeto-botoes">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="projeto-botoes">
+                                <a href="http://127.0.0.1:5501/compasso-musical.html" target="_blank" class="botao-projeto"><i class="bi bi-globe"></i> Site</a>
+                                <a href="https://github.com/Rafapacifico-OSS/projeto-robomaker/blob/main/index.html" target="_blank" class="botao-projeto secundario"><i class="bi bi-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-projeto">
+                        <div class="projeto-imagem">
+                            <i class="bi placeholder-icone"></i>
+                            <img src="instrumentos.jpg" alt="" width="240">
+                        </div>
+                        <div class="projeto-info">
+                            <h4>compasso-musical</h4>
+                            <p>Ajuda as pessoas que querem começar a tocar algum instrumento.</p>
+                            <div class="compasso-musical.html">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="projeto-botoes">
+                                <a href="http://127.0.0.1:5501/compasso-musical.html" target="_blank" class="botao-projeto"><i class="bi bi-globe"></i> Site</a>
+                                <a href="https://github.com/Rafapacifico-OSS/campasso-musical/blob/main/index.html" target="_blank" class="botao-projeto secundario"><i class="bi bi-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repositórios de Estudo -->
+                <h3 class="subtitulo-secao espacamento-topo">Repositórios de Estudo</h3>
+                <div class="grid-repositorios">
+                    <a href="https://github.com" target="_blank" class="card-repositorio">
+                        <i class="bi bi-journal-code"></i>
+                        <div>
+                            <h5>Trilha de HTML e CSS</h5>
+                            <p>Anotações e exercícios práticos de estruturação e estilização de páginas web.</p>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+
+                    <a href="https://github.com" target="_blank" class="card-repositorio">
+                        <i class="bi bi-filetype-js"></i>
+                        <div>
+                            <h5>Trilha de JavaScript Vanilla</h5>
+                            <p>Manipulação do DOM, eventos, algoritmos e lógica aplicada com JS puro.</p>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+
+                    <a href="https://github.com" target="_blank" class="card-repositorio">
+                        <i class="bi bi-cpu"></i>
+                        <div>
+                            <h5>Lógica de Programação</h5>
+                            <p>Exercícios de fluxogramas, algoritmos e estruturação de dados em Portugol.</p>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section class="secao contato" id="contato">
+            <div class="container">
+                <div class="cabecalho-secao">
+                    <h2 class="titulo-secao">Vamos Conversar?</h2>
+                    <p class="descricao-secao">Conecte-se comigo através das minhas redes sociais e canais de contato</p>
+                </div>
+
+                <div class="grid-contatos">
+                    <a href="https://wa.me/5500000000000" target="_blank" class="card-contato whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                        <span>WhatsApp</span>
+                        <p>
+                            (65)  99271-4341
+                        </p>
+                        <small>Enviar mensagem</small>
+                    </a>
+
+                    <a href="mailto:rafael.pacifico@email.com" class="card-contato email">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>E-mail</span>
+                        <p>
+                            e-mail: rafaelpacificodossantos7@gmail.com
+                        </p>
+                        <small>Entrar em contato</small>
+                    </a>
+
+                    <a href="https://linkedin.com" target="_blank" class="card-contato linkedin">
+                        <i class="bi bi-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <p>
+                            https://github.com/Rafapacifico-OSS
+                        </p>
+                        <small>Ver perfil profissional</small>
+                    </a>
+
+                    <a href="https://github.com" target="_blank" class="card-contato github">
+                        <i class="bi bi-github"></i>
+                        <span>GitHub</span>
+                        <p>
+                            https://github.com/dashboard                        </p>
+                        <small>Explorar repositórios</small>
+                    </a>
+
+                    <a href="https://instagram.com" target="_blank" class="card-contato instagram">
+                        <i class="bi bi-instagram"></i>
+                        <span>Instagram</span>
+                        <p>
+                            raffxx_ezl
+                        </p>
+                        <small>Acompanhar rotina</small>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container rodape-container">
+            <p>Copyright &copy; <span id="anoAtual"></span> • Desenvolvido com <i class="bi bi-heart-fill cor-coracao"></i> por <strong>Rafael Pacifico Dos Santos</strong></p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="botaoTopo" class="botao-topo" aria-label="Voltar ao Topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
