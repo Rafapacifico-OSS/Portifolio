@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compasso Musical - loja de instrumentos Musicais</title>
+    <!--CSS interno-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-shadow: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafa;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .cabecalhoPrincipal {
+            background-color: #ffffff;
+            padding: 1.5rem 5%;
+            box-shadow: 0 3px 8px rgba (0, 0, 0, 0.5);
+            display: flex;
+            justify-items: space-between;
+            align-items: center;
+        }
+
+
+
+        .titulo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+
+        .listaNavegacao {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .linkNav {
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .linkNav:hover {
+            color: #d32f2f;
+        }
+
+        .botaoPrincipal {
+            display: inline-block;
+            background-color: #d32f2f;
+            color: #ffffff;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: backgraund-color 0.3s ease;
+        }
+
+        .botaoPrincipal:hover {
+            background-color: #b71b1b;
+            color: #ffffff;
+        }
+
+        .container {
+            padding: 4rem 5%;
+        }
+
+        .tituloSecao {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+
+        }
+
+        .gradeInstrumentos {
+            display: flex;
+            gap: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cartaoInstrumento {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3 ease;
+        }
+
+        .cartaoInstrumento:hover {
+            transform: translateY(-5px);
+        }
+
+        .nomeInstrumento {
+            color: #333333;
+        }
+
+        .rodape{
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 5%; 
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .rodape h2,
+        .rodape h3 {
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- cabeçalho do site -->
+    <header id="header" class="cabecalhoPrincipal">
+        <div id="logo">
+            <h1 class="titulo">Compasso Musical</h1>
+        </div>
+        <nav id="nav">
+            <ul class="listaNavegacao">
+                <li>
+                    <a href="#hero" class="class=" linkNav>Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobre" class="class=" linkNav>Sobre</a>
+                </li>
+                <li>
+                    <a href="#instrumentos" class="class=" linkNav>instrumentos</a>
+                </li>
+                <li>
+                    <a href="#depoimentos" class="class=" linkNav>Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="class=" linkNav>Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- conteudp principal-->
+    <main>
+        <section id="hero" class="secaoHero"
+            style="background-color: #eceff1; text-align: center; padding: 5rem 2rem; border-bottom: 4px solid #d32f2f; ">
+            <h2 style="font-size: 3rem; color: #1a1a1a; ">O Som Da Sua Vida Começa Aqui!</h2>
+            <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem auto; ">
+                Encontre As Melhores Marcas De Violino, Trompétes Ou Violões.
+            </p>
+            <img src="banda de rock.jpg"
+                alt="banda de rock num show usando os instrumentos musicais da compasso musical" width="600"
+                style="border-radius: 12px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">
+            <br><br>
+            <a href="#" class="botaoPrincipal">Ver nossas ofertas</a>
+        </section>
+
+        <!--Seçao sobre-->
+        <section id="hero" class="container">
+            <h2 class="tituloSecao">Sobre a Compasso Musícal</h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p>
+                    Nossa loja nasceu da paixao pela musica. nossa missao e entregar qualidade sonora tanto para quem
+                    esta aprendendo os primeiros acordes quanto para mmusicos profissionais.
+                </p>
+                <ul style="text-align: left; display: inline-block; margin-top: 1rem;">
+                    <li style="margin-bottom: 0.5rem;">✅ Todos os instrumentos sao revisados por nossa equipe tecnica.</li>
+                    <li style="margin-bottom: 0.5rem;">✅ garantia estendida de fabrica.</li>
+                    <li style="margin-bottom: 0.5rem;">✅ suporte e atendimento feito por musicos reais.</li>
+                </ul>
+            </div>
+        </section>
+        <!--seçao produtos-->
+        <section id="instrumentos" class="container" style="background-color: #eeeeee;">
+            <h2 class="tituloSecao">Catalogo de instrumentos</h2>
+            <div class="gradeInstrumentos">
+
+                <article class="cartaoInstrumento">
+                    <h3 class="nomeInstrumento">Guitarra Elétrica StratoCaster</h3>
+                    <img 
+                    src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02" 
+                    alt="imagem da guitarra"
+                    width="300" style="border-radius: 4px;margin-bottom: 1rem;">
+                    <p> <strong>Marcas: </strong>pearl </p>
+                    <p> Guitarra Clássica de Alta Performance, Ideal Para Rock e Blues </p>
+                    <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;"><em>Preço:R$ 3.500,00</em> </p>
+                    <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+                </article>
+
+                <article class="cartaoInstrumento">
+                    <h3 class="nomeBVJInstrumento">Kit bateria </h3>
+
+                    <img src="https://images.unsplash.com/photo-1602001373676-64e1598dbc6a"
+                        alt="imagem do kit de bateria" width="300" style="border-radius: 4px; margin-bottom: 1rem;">
+                    <p>
+                        <strong>Marcas:</strong>pearl
+                    </p>
+                    </p>kit de bateria preto e roxo ideal para voce. </p>
+                    <p>
+                        guirrtarra classica de altar performance, ideal para rock e blues
+                    </p>
+                    <p style="color: #d32f2f; font-weight: bold;font-size: 1.2rem ;">
+                        <em>Preço:R$ 13.900,00</em>
+                    </p>
+                    <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+                </article>
+            </div>
+        </section>
+
+        <!--seção Depoimentos-->
+        <section id="depoimentos" class="container">
+            <h2 class="tituloSecao">o que nossos clientes dizem</h2>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <blockquote
+                    style="background-color: #ffffff; padding: 2rem; border-left: 5px solid #d32f2f;box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); max-width: 400px;">
+                    <p>
+                        'A bateria chegou super rapido aqui em cuiaba-mt e perfeitamente embalada. O som e
+                        incrivel vou usar em meus videos!
+                    </p>
+                    <footer style="margin-top: 1rem;font-weight: bold;">
+                        <cite>Renato Garcia,youtuber</cite>
+                    </footer>
+                </blockquote>
+                <br>
+                <blockquote
+                    style="background-color: #ffffff; padding: 2rem; border-left: 5px solid #d32f2f;box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); max-width: 400px;">
+                    <p>
+                        "comprei minha primeira guitarra na compasso musical. O atendimento me ajudou a escolher o
+                        modelo
+                        certo"
+                    </p>
+                    <footer style="margin-top: 1rem;font-weight: bold;">
+                        - <cite>Caio fernando, Estudante</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!--seção contatatos-->
+        <sections id="#contatos" class="container" style="background-color: #eceff1;">
+            <h2 class="tituloSecao">Fale conosco</h2>
+            <div
+                style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 2rem; border-radius: 8px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);">
+                <p>Tem duvidas sobre algum instrumento? Mande uma mensagem ou venha nos visitar.</p>
+                <address style="text-align: center; margin-bottom: 2rem; font-style: normal;">
+                    <p style="text-align: center; margin-bottom: 2rem;">
+                        Loja fisica: <strong>Centro de historico, cuiaba-MT</strong>
+                    </p>
+                </address>
+                <form action="#">
+                    <label for="nome" style="font-weight: bold;">Nome Completo:</label>
+
+                    <input type="text" name="nome" id="nome" placecholder="Digite seu nome" required
+                        style="width: 100%;padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px;">
+
+                    <label for="email" style="font-weight: bold;">E-mail</label>
+
+                    <input type="email" name="email" id="email" placeholder="digite deu e-mail" required
+                        style="width: 100%;padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px;">
+
+                    <label for="departamento" style="font-weight: bold;">departamento</label>
+
+                    <select name="departamento" id="departamento"
+                        style="width: 100%; padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px;">
+                        <option value="vendas">Venda</option>
+                        <option value="suporte">Suporte</option>
+                        <option value="financeiro">Financeiro</option>
+                        <option value="sugestao">Sugestões</option>
+                    </select>
+                    <br><br>
+                    <label for="mensagem" style="font-weight: bold;">mensagem</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" rows="10" placecholder="digite sua mensagem"
+                        style="width: 100%;padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px;"></textarea>
+                    <br><br>
+                    <button type="submit" class="botaoPrincipal"
+                        style="width: 100%; border: none; cursor: pointer;">Enviar Mensagem</button>
+                </form>
+            </div>
+        </sections>
+    </main>
+
+    <!-- rodapé do site-->
+    <footer id="footer" class="rodape">
+        <div style="flex: 1; min-width: 250px;">
+            <h2 class="titulo">Compasso musical</h2>
+
+            <p>Desde 2026 conectando pessoas atraves da musica.</p>
+
+        </div>
+
+        <nav style="flex: 1; min-width: 150px; ">
+            <h3 style="border-bottom: 2px solid #d32f2f;padding-bottom: 0.5rem; display: inline-block; ">Mapa do site</h3>
+            <ul style="margin-top: 1rem; line-height: 2; ">
+                <li>
+                    <a href="#hero" class="linkNav">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobre" class="linkNav">Sobre</a>
+                </li>
+                <li>
+                    <a href="#instrumentos" class="linkNav">Instrumentos</a>
+                </li>
+                <li>
+                    <a href="#depoimentos" class="linkNav">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="linkNav">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav style="flex: 1; min-width: 150px;">
+            <h3 style="border-bottom: 2px solid #d32f2f;padding-bottom: 0.5rem; display: inline-block; ">Insformações</h3>
+            <ul style="margin-top: 1rem; line-height: 2; ">
+                <li>
+                    <a href="#" class="linkNav">Termos de Uso</a>
+                </li>
+                <li>
+                    <a href="#" class="linkNav">Politica de Privacidade</a>
+                </li>
+                <li>
+                    <a href="#" class="linkNav">Trocas e devoluçoes</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div style="flex: 1; min-width: 250;">
+            <h3 style="border-bottom: 2px solid #d32f2f;padding-bottom: 0.5rem; display: inline-block; ">Siga-Nos</h3>
+            <div style="display: flex; gap: 20px;">
+                <a href="instagram.com">
+                    <img src="instagram.png" alt="instagram" width="30"/>
+                </a>
+                <a href="youtube.com">
+                    <img src="youtube.png" alt="Youtube" width="30"/>
+                </a>
+                <a href="fecebook.com">
+                    <img src="facebook.png" alt="Fecebook" width="30"/>
+                </a>
+
+            <div style="flex: 1; min-width: 250;">
+            <h3 style="border-bottom: 2px solid #d32f2f;padding-bottom: 0.5rem; display: inline-block;">Newslatter</h3>
+            <form action="" style="display: flex; margin-top: 1rem; ">
+
+            <input type="email" name="email" id="email" placecholder="digite seu E-mail" style="margin-top: 0; border-radius: 4px
+            0 0 4px; padding: 0.8rem; width: 70%;" /> 
+            <button sype="submit" class="botaoPrincipal" style="margin-top: 0; border-radius: 0 4px 4px 0; border: none; pointer; ">Assinar</button>
+        </form>
+    </footer>
+</div>
+
+<div style="width: 100%; text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #333333;">
+    <p>
+    Copyright &copy; 2026 compaso musical - todos os direitos reservados. site desenvolvidos por Rafael Pacifico.
+    </p>
+</div>
+</body>
+</html>
