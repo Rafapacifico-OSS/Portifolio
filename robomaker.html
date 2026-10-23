@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoboMaker Kits Educacionais</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-shadow: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafa;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .cabecalhoPrincipal {
+            background-color: #ffffff;
+            padding: 1.5rem 5%;
+            box-shadow: 0 3px 8px rgba (0, 0, 0, 0.5);
+            display: flex;
+            justify-items: space-between;
+            align-items: center;
+            gap: 45rem;
+        }
+
+
+
+        .titulo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #5569c5;
+        }
+
+        .tituloAbc{
+
+        }
+
+        .listaNavegacao {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .linkNav {
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .linkNav:hover {
+            color: #d32f2f;
+        }
+
+        .botaoPrincipal {
+            display: inline-block;
+            background-color: #d32f2f;
+            color: #ffffff;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: backgraund-color 0.3s ease;
+        }
+
+        .botaoPrincipal:hover {
+            background-color: #b71b1b;
+            color: #ffffff;
+        }
+
+        .container {
+            padding: 4rem 5%;
+        }
+
+        .tituloSecao {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        #produtos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .cards{
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gradeInstrumentos {
+            display: flex;
+            gap: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cartaoInstrumento {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3 ease;
+        }
+        
+        .cartaoInstrumento:hover {
+            transform: translateY(-5px);
+        }
+
+        .nomeInstrumento {
+            color: #333333;
+        }
+
+        .rodape{
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 3rem 5%; 
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .rodape h2,
+        .rodape h3 {
+            color: #ffffff;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!--O Cabeçalho-->
+    <header id="header" class="cabecalhoPrincipal">
+    <div id="logo" >
+        <h1 class="titulo">RoboMaker Kits Educacionais</h1>
+    </div>
+      <nav id="nav">
+        <ul class="listaNavegacao">
+          <li>
+            <a href="#categorias" class="class=" linkNav>Categorias</a>
+          </li>
+          <li>
+            <a href="#produtos" class="class=" linkNav>Nossos Produtos e Preço dos Produtos</a>
+          </li>
+          <li>
+            <a href="#cursos" class="class=" linkNav>Cursos</a>
+          </li>
+          <li>
+            <a href="#cadastro.html" class="class=" linkNav>Cadrasto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+        <!--O Conteudo principal-->
+
+    <main>
+        <section id="hero" class="secaoHero" 
+        style="background-color: #eceff1; text-align: center; padding: 5rem 2rem; border-bottom: 4px solid #080808; "></section>
+            <h2 class="tituloSecao">Nossa Categorias de Produtos</h2>
+            <ul class="listaCategorias" style="text-align: left; display: inline-block; margin-top: 1rem;">
+                <li style="margin-bottom: 0.5rem;"> ✅ Placas Microcontroladoras</li>
+                <li style="margin-bottom: 0.5rem;"> ✅ Sensores</li>
+                <li style="margin-bottom: 0.5rem;"> ✅ Motores e Servos</li>
+                <li style="margin-bottom: 0.5rem;"> ✅ Estrutura de Montagem</li>
+            </ul>
+        </section>
+
+        <section id="produtos" class="container" style="background-color: #eeeeee;" > 
+            <div class="gradeProdutos" >
+                <h2 style="font-size: 3rem; color: #1a1a1a; text-align: center;">Nosso Produtos De Robotica </h2>
+                <div class="cards">
+                    <article class="cartaoInstrumento" >
+                    <h3 class="nomeInstrumento">Placas Microcontroladoras</h3>
+                    <img 
+                    src="https://images.unsplash.com/photo-1631376604914-572212a3ede5" 
+                    alt="Imagem da Placas Microcontroladoras"
+                    width="300"   style="border-radius: 4px;margin-bottom: 1rem;">
+                    <p> <strong>Marca: </strong>Mlab</p>
+                    <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;"><em>Preço: R$250,00</em> </p>
+                    <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+                </article>
+                <article class="cartaoInstrumento">
+                    <h3 class="nomeInstrumento">Sensores</h3>
+                    <img 
+                    src="https://images.unsplash.com/photo-1583267925993-935f26612138" 
+                    alt="Imagem de Um Sensor de robotica "
+                    width="300" height="250" style="border-radius: 4px;margin-bottom: 1rem;"
+                    >
+                    <p>
+                <strong>Marca: </strong>HDCV
+                    </p>
+                    <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;">
+                <em>Preço: R$100,00</em>
+                    </p>
+                    <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+                </article>
+                <article class="cartaoInstrumento">
+                    <h3 class="nomeInstrumento">Motores e Servos</h3>
+                    <img 
+                    src="https://images.unsplash.com/photo-1723730741656-6333f4840ecf" 
+                    alt="Imagem de Mortores de robotica "
+                    width="300"  style="border-radius: 4px;margin-bottom: 1rem;"
+                    >
+                    <p>
+                <strong>Marca: </strong>JGY370
+                    </p>
+                    <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;">
+                <em>Preço: R$145,00</em>
+                    </p>
+                    <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+                </article>
+                <article class="cartaoInstrumento">
+                    <h3 class="nomeInstrumento">Estrutura De Montagem</h3>
+                    <img 
+                    src="https://plus.unsplash.com/premium_photo-1750815274229-3465925fca3e" 
+                    alt="Imagem de Estrutura de Montagem(Que seria o esquelo do robo)"
+                    width="300" height="250" style="border-radius: 4px;margin-bottom: 1rem;"
+                    >
+                    <p> <strong>Marca: </strong>Kit Chassi 2WD</p>
+                    <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;"> <em>Preço: R$1300,00</em> </p>
+                    <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+                </article>
+                </div>
+
+        </div>
+
+            </section>
+<div>
+        <!--Cursos e Oficinas-->
+        <section id="cursos">
+            <h2>Oficinas Presenciais</h2>
+            <table border="1">
+        <thead>
+            <tr>
+                <th>Cursos</th>
+                <th>Duraçao</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <th>Ciência da Computação</th>
+                <th>5 Horas</th>
+                <th>250,00</th>
+            </tr>
+            <tr>
+                <th>Engenharia de Software</th>
+                <th>5 Horas</th>
+                <th>500,00</th>
+            </tr>
+            <tr>
+                <th>Sistemas de Informação e Análise 
+                e Desenvolvimento de Sistemas</th>
+                <th>5 Horas</th>
+                <th>100,00</th>
+            </tr>
+        </thead>
+        </div>
+        
+        </section>
+    </main>
+<div>
+        <div>
+        <h3 style="border-bottom: 2px solid #d32f2f;padding-bottom: 0.5rem; display: inline-block; ">Siga-Nos</h3>
+                <a href="">
+                <img src="instagram.png" alt="instagram"
+                width="50"
+        height="50"> 
+                </a>
+                <a href="">
+                <img src="youtube.png" alt="Youtube"
+                width="50"
+        height="50"> 
+                </a>
+                <a href="">
+                <img src="facebook.png" alt="Fecebook"
+                width="50"
+        height="50"> 
+                </a>
+                <div style="width: 100%; text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #333333;">
+            </div>
+
+        </footer>
+        <p>
+            Copyright &copy; 2026 RoboMaker Kits Educacionais - todos os direitos reservados. site desenvolvidos por Rafael Pacifico.
+        </p>
+        
+    </body>
+</html>
